@@ -11,6 +11,8 @@ Reproduces on a fresh venv of:
 ## Repro steps
 
 ```
+git clone git@github.com:oTree-org/py37bug.git
+cd py37bug
 pip install otree
 otree resetdb --noinput
 ```
